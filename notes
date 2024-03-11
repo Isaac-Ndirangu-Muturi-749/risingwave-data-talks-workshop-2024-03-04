@@ -1,0 +1,11 @@
+source commands.sh
+
+stream-kafka
+
+find . -type f -exec dos2unix {} \;
+
+user@example.com
+
+ssh -L 8888:localhost:8888 ndirangu749@34.171.199.217
+
+cp ~/risingwave-data-talks-workshop-2024-03-04/Homework_workshop_2_Streaming_with_SQL_risingwave.ipynb
